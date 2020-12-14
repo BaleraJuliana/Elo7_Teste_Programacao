@@ -1,8 +1,9 @@
 #site{
     height:100%; 
     font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif;
-    font-size: 23px;
+    font-size: 26px;
     line-height: 1.5;
+    
 }
 
 body{
@@ -16,27 +17,62 @@ body{
 
 #bloco3{
     margin-top: 40px;
+    margin-bottom: 60px;;
     width:100%;
-    height: 750px;
+    height: 1050px;
     background-color: #f5f5f0;
 }
 
 #bloco3_1{
     width:50%;
-    height:375px;
+    height:500px;
     float:left;
     
 }
 
 #bloco3_2{
     width:50%;
-    height:375px;
+    height:500px;
     float:right;
     background-color: #f5f5f0;
     
 }
 
-#bloco4{
+.bloco_flutante_esquerdo_vagas{
+    
+    font-weight: bold;
+    color: #359C9C;
+    width:50%;
+    height:auto;
+    float:left;
+    
+}
+
+
+.a_{
+    text-decoration: none;
+    font-weight: bold;
+    color: #359C9C;
+}
+
+.bloco_flutante_direito_vagas{
+    font-weight: bold;
+    color:#95918D;
+    width:50%;
+    height:auto;
+    float:left;
+    text-align: right;
+    
+}
+
+.link_vaga{
+    margin: 10px 5% 10px 5%; 
+    cursor: pointer;
+}
+
+
+
+.bloco4{
     width:100%;
     height: 600px;
 }
@@ -44,8 +80,18 @@ body{
 
 .bloco_texto{
     height: auto;
-    margin: 10px 5% 10px 5%; ;
+    margin: 10px 5% 10px 5%; 
 }
+
+.bloco_h1{
+    margin: 60px 0% 0px 0%; 
+}
+
+.bloco_h2{
+    margin: -20px 0% 0px 0%; 
+}
+
+
 
 p{  
     text-align: center;
@@ -58,7 +104,7 @@ p{
 
 #bloco_paragrafo_bloco3_2{
     height: auto;
-    margin: 40px 10% 30px 0%;
+    margin: 40px 10% 40px 0%;
 }
 
 #bloco_paragrafo_bloco4{
@@ -67,38 +113,63 @@ p{
 }
 
 #bloco_paragrafo_p{
-    height: 300px;
+    height: auto;
     margin: 10px 5% 10px 5%;
 }
 
+
+.bloco_titulo{
+    margin: 60px 0% 60px 0%; 
+}
+
+.bloco_titulo_vagas{
+    margin: 60px 5% 30px 5%; 
+}
+
+.bloco_titulo_meio{
+    margin: 60px 0% 60px 0%; 
+}
+
+.bloco_titulo_cima{
+    margin: 30px 0% 60px 1%; 
+}
+
+.vagas{
+    margin: 0px 5% 0px 5%; 
+}
+
+
 h1{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
     color: #95918D;
+    line-height: 1.0;
+
 }
 
 
 h3{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 26px;
     color: #359C9C;
+
 }
 
 h2{
     font-style: oblique;
-    font-size: 20px;
+    font-size: 26px;
     color: #FDB933;
 } 
 
 
 .imagem{  
     margin-top:40px;
-    width: auto;
+    width: 70%;
 }
 
 .imagem_1{  
     margin-top:40px;
-    width: auto;
+    width: 80%;
 }
 
 .imagem_2{  
@@ -192,6 +263,8 @@ h2{
     }
 
     
+  
+
     p{  
         text-align: justify;
     }
@@ -212,6 +285,10 @@ h2{
     h3{
         font-size: 16px;
         text-align: center;
+    }
+    
+    .bloco_h2{
+        margin: -15px 0% 0px 0%; 
     }
     
 
